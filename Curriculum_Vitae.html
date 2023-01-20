@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="esS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="estilo_curriculum.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Curriculum</title>
+</head>
+<body>
+    <div class="print-area">
+        <div class="header">
+            <img src="images/9.jpg" width="25%">
+            <div class="header-text">
+                <h1>Jason Founderbaker</h1>
+                <p>Diseñador Web</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left-area">
+                <div class="contact">
+                    <h4>CONTACTO</h4>
+                    <h5>Telefono</h5>
+                    <p>(431) 507-2094</p>
+                    <h5>Correo</h5>
+                    <p>JasonFound@example.com</p>
+                    <h5>Dirección</h5>
+                    <p>5753 W Campbell Ave</p>
+                </div>
+                <div class="skills">
+                    <h1>Habilidades</h1>
+                    <div class="bars">
+                        <div class="bar">
+                            <p>Photoshop</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>Html/Css</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>JavaScript</p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-area">
+                <div class="about">
+                    <h1><span><i class="fas fa-user">Acerca de mí</i></span></h1>
+                    <p>Mi nombre es Jason, tengo 30 años, nací en la ciudad de Medellín el 28 de abril de 1992, en este momento vivo en el barrio buenos aires con mi madre Gloria Diaz, con mi padre Hildebrando Founderbaker y mi hermano menor Juan diego Diaz, actualmente trabajo en una empresa de cocher siendo el diseñador web de la misma</p>
+                </div>
+                <div class="work">
+                    <h1><span><i class="fas fa-suitcase-rolling">Experiencia de Trabajo</i></span></h1>
+                    <div class="work-experience">
+                        <h3>Sí bien es mi primera vez trabajando para una empresa, ya me he dedicado al diseño web desde joven</h3>
+                    </div>
+                </div>
+                <div class="education">
+                    <h1><span><i class="fas fa-book">Educación</i></span></h1>
+                    <div class="education-experience">
+                        <h4>Iba a la Universidad Tecnologica Nacional (UTN)</h4>
+                        <span>2005/2012</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<button>Descarga CV</button>
+
+<script>
+    var btn = document.querySelector("button");
+    btn.onclick = () => {
+        window.print();
+    }
+</script>
+</body>
+</html>
